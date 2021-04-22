@@ -1,0 +1,28 @@
+body {
+    background-color: skyblue;
+    text-align: center
+}
+h3 {
+  text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDIV {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel_mainDIV img {
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDIV hr {
+    width: 100%;
+}
+.travel_mainDIV h5, .travel_mainDIV p{
+    margin-left: 20px;
+}
